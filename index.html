@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+	<header class="jumbotron">
+		<div class="container">
+			<h1>Gurunavi × Gmaps</h1>
+			<p>This is a web service that you can find the best place to eat lunch!</p>
+		</div>
+	</header>
+
+	<div class="container main-content">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>Map</h2>
+				<div id="map"></div>
+			</div>
+			<div class="col-md-6">
+				<h2>Display</h2>
+				<div id="display"></div>
+			</div>
+		</div>
+		<button type="button" class="btn btn-primary btn-lg btn-block tweet-btn" id="tweet">Tweet</button>
+	</div>
+
+	<footer class="container-fluid">
+		<small></small>
+	</footer>
+	
+	<script src="js/index.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3v7oK8MHduJ2_nkgx9Ub00UwAKIJUqWk&callback=initMap"async defer></script>
+</body>
+</html>
