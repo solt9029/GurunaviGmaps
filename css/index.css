@@ -1,0 +1,23 @@
+#map {
+	height: 500px;
+	width: 500px;
+}
+
+header.jumbotron {
+	background: url("../img/header.png");
+	background-color:black;
+	background-position: center center;
+	background-size: cover;
+	color: #fff;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	background: #101010;
+}
+
+.tweet-btn{	
+	margin-top:20px;
+	margin-bottom:20px;
+}
